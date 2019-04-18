@@ -1,6 +1,6 @@
 # QA Interview Integration Tests
 
-You are allowed to use any test framework of your choice. Jest is configured for you. Install with `yarn add` and run the test with `yarn test`.
+You are allowed to use any test framework of your choice. You can make assumptions where necessary. Jest is configured for you. Install with `yarn add` and run the test with `yarn test`.
 
 ## Upload a file in bulk list
 
