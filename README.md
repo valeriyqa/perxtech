@@ -2,14 +2,7 @@
 
 You are allowed to use any test framework of your choice. You can make assumptions where necessary. Jest is configured for you. Install with `yarn add` and run the test with `yarn test`.
 
-## Upload a file in bulk list
-
-- Ensure that the logged in user has sufficient permission to visit the builk file upload page and has the ability to upload.
-- Form upload should only accept from the accepted file list (.txt, .xlsx, .csv).
-- Each file should be tied to one action.
-- After a successful upload, the file list should reflect the newly uploaded file
-
-## Testing authorization of user roles andd groups
+## Testing authorization of user roles and groups
 
 - Given a user acc with permissin to create a reward and ensure that the user is not able to visit the rest of the page sections (loyalties, campaigns, merchants, user lists, bulk actions) and all the other API endpoints shouldn't be accessible.
 
@@ -26,3 +19,10 @@ You are allowed to use any test framework of your choice. You can make assumptio
 - If the reward is of private type,
   - All fields related to catalogues, labels, brands, tags and categories should disappaer.
   - It should not be tagged to any catalogues, labels, brands, tags nor categories.
+
+## Upload a file in bulk list
+
+- Ensure that the logged in user has sufficient permission to visit the builk file upload page and has the ability to upload.
+- Form upload should only accept from the accepted file list (.txt, .xlsx, .csv).
+- Each file should be tied to one action.
+- After a successful upload, the file list should reflect the newly uploaded file
