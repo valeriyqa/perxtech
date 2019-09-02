@@ -2,6 +2,17 @@
 
 You are allowed to use any test framework of your choice. You can make assumptions where necessary. Jest is configured for you. Install with `yarn add` and run the test with `yarn test`.
 
+### Staging Dashbaord URL
+https://www.perxtech.io/dashboard 
+
+#### Admin Credentials
+email: admin@dashboard.com
+password: admin1234
+
+#### Reward Moderator Credentials
+email: reward_admin@dashboard.com
+password: reward_admin
+
 ## Testing authorization of user roles and groups
 
 - Given a user acc with permissin to create a reward and ensure that the user is not able to visit the rest of the page sections (loyalties, campaigns, merchants, user lists, bulk actions) and all the other API endpoints shouldn't be accessible.
