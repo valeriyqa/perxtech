@@ -1,8 +1,5 @@
 import webdriver, {Builder, By, Key, until, util} from "selenium-webdriver";
-
  export default class SignInPage {
-
-   
   constructor() {
     this.reward_admin_email = 'reward_admin@dashboard.com';
     this.reward_admin_password = 'reward_admin';
@@ -37,7 +34,6 @@ import webdriver, {Builder, By, Key, until, util} from "selenium-webdriver";
     this.endOFMonthDateButton = "//span[text() = 'END OF MONTH']";
     this.submitRewardCreationButton = "//button[@type = 'submit']";
     this.newRewardElementSearch = "//div[text() = '1 Test reward name']";
-    
     
     this.bulkFileDownloadUrl = 'https://www.perxtech.io/dashboard/p/bulkaction';
     this.uploadFileButotn = "//button";
