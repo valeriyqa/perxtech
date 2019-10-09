@@ -11,9 +11,9 @@ import webdriver, {Builder, By, Key, until, util} from "selenium-webdriver";
     this.loginUrl = "https://www.perxtech.io/dashboard";
     this.admin_email = 'admin@dashboard.com';
     this.admin_password = 'admin1234';
-    this.pathToTXTFile = './users.txt';
-    this.pathToCSVFile = './users.csv';
-    this.pathToLXLSFile = './users.xlsx';
+    this.pathToTXTFile = `${__dirname}/users.txt`;
+    this.pathToCSVFile = `${__dirname}/users.csv`;
+    this.pathToLXLSFile = `${__dirname}/users.xlsx`;
     
     this.testRewardName = "1 test reward name";
     this.emailFieldID = 'email';
